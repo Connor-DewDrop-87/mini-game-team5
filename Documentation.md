@@ -3,7 +3,7 @@
 ## Game Idea:  
 <ul>
 <li> Tag Game- One Player is the Tagger and the other is the Runner. The Runner needs to avoid the Tagger. The Tagger wins if they touch the Runner, while the Runner wins when the Timer runs out. </li>
-<ul>Timer is 30 Seconds
+<ul> <li> Timer is 30 Seconds </li>
  <li> 1 Time Dash to help avoid opponent (Or Timer for Dash Cooldown) </li>
 <li>Physical Obstacles they can run behind</li>  
 <li>Tagger is Faster than Runner</li> 
