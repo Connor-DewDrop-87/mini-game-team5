@@ -18,6 +18,7 @@
 </li>
  
 </ul>
+
 ## Objective Statement
 The Runner will feel Tension as they attempt to avoid the Tagger, feeling Relief when the timer runs out and when they narrowly avoid the Tagger.
 
