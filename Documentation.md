@@ -23,12 +23,11 @@
 </ul>
 
 ## Objective Statement
-The Runner will feel Tension as they attempt to avoid the Tagger, feeling Relief when the timer runs out and when they narrowly avoid the Tagger.
-
-The Tagger will feel Frustrated whenever they do not catch the Runner, feeling Joy whenever they catch the Runner. 
+The Runner will feel Tension as they attempt to avoid the Tagger, feeling Relief when the timer runs out and when they narrowly avoid the Tagger. The Tagger will feel Frustrated whenever they do not catch the Runner, feeling Joy whenever they catch the Runner. 
 ## Design Rationale
+This Game is meant to be a fast paced action game, where lots of people will compete against one another with easy to understand controls and a simple premise. In a way, it is not too dissimilar to a Fighting Game, where players are pinned against one another to test their skills. The main difference is that this Game is meant to be one you can easily jump into, as opposed to a Fighting Game where one would need to take some time to Practice and Hone their Skills. 
 ### Audience
-Our Audience 
+Our Audience is anyone. Young Children, Teens, Young Adults, Old Adults and even Old Folks if they've still got half decent motor skills. Due to the simple premise, anyone should be able to take time out of their day to challenge a Friend, Family or Lover. However, we are mainly aiming at Children, due to the Game being a Social Competitive Game that they can use to make Connections and New Friends. 
 ## Sources
 
 
