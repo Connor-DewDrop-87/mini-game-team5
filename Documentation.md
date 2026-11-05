@@ -16,6 +16,9 @@
 <li>
  November 5th, 12:08am- First Iteration of Arena Area Created by Tim Peng
 </li>
+<li>
+ Novemeber 5th, 2:03pm- First Interation of Arena Implemented by Tim Peng (Merged to Main at 2:08pm by Connor Almeyda)
+</li>
  
 </ul>
 
