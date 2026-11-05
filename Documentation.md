@@ -11,13 +11,20 @@
 
 </ul>
 
+## Game Updates (Month, Day, Time)
+<ul>
+<li>
+ November 5th, 12:08am- First Iteration of Arena Area Created
+</li>
+ 
+</ul>
 ## Objective Statement
 The Runner will feel Tension as they attempt to avoid the Tagger, feeling Relief when the timer runs out and when they narrowly avoid the Tagger.
 
 The Tagger will feel Frustrated whenever they do not catch the Runner, feeling Joy whenever they catch the Runner. 
 ## Design Rationale
 ### Audience
-
+Our Audience 
 ## Sources
 
 
