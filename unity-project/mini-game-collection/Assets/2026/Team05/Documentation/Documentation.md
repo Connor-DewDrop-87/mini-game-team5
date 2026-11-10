@@ -19,7 +19,9 @@
 <li>
  Novemeber 5th, 2:03pm- First Interation of Arena Implemented by Tim Peng (Merged to Main at 2:08pm by Connor Almeyda)
 </li>
- 
+ <li>
+ Novemeber 9th, 6:00pm- First Player Code Script Created by Aidan Thomas (Merged to Main at 10:40am on November 10th by Connor Almeyda)
+</li>
 </ul>
 
 ## Objective Statement
