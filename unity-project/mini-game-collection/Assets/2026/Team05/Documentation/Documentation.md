@@ -8,6 +8,7 @@
 <li>Physical Obstacles they can run behind</li>  
 <li>Tagger is Faster than Runner</li> 
 <li>Runner needs to be strategic about when they use the Dash and the Tagger needs to try and cut them off</li> 
+<li>Tagger can use the Button to Switch one Platform to another predetermined point. Similar to the Dash, it has a Cooldown</li> 
 
 </ul>
 
@@ -21,6 +22,9 @@
 </li>
  <li>
  Novemeber 9th, 6:00pm- First Player Code Script Created by Aidan Thomas (Merged to Main at 10:40am on November 10th by Connor Almeyda)
+</li>
+ <li>
+ Novemeber 10th, 11:00pm- Add Colliders to the Walls and fix the rotation of the Players by Connor Almeyda
 </li>
 </ul>
 
