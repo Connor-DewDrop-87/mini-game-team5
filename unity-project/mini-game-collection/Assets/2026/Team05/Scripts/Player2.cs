@@ -21,6 +21,8 @@ public class Player2 : MonoBehaviour
 
     private SpriteRenderer sr;
 
+    public TagSystemManager tagManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,5 +43,13 @@ public class Player2 : MonoBehaviour
 
         // Move Player2
         transform.Translate(movement * moveSpeed * Time.deltaTime);
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player1"))
+        {
+            tagManager.SwitchTagger();
+        }
     }
 }
