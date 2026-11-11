@@ -26,6 +26,9 @@
  <li>
  Novemeber 10th, 11:00pm- Add Colliders to the Walls and fix the rotation of the Players by Connor Almeyda
 </li>
+ <li>
+ Novemeber 10th, 7:10pm- Update UI to call the Players "Runner" and "Tagger", along with removing score by Aidan Thomas (Merged to Main at 7:17pm by Connor Almeyda)
+</li>
 </ul>
 
 ## Objective Statement
