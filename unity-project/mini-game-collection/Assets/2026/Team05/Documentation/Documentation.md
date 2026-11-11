@@ -32,6 +32,9 @@
  <li>
  Novemeber 11th, 3:28pm- Add Tagging Mechanic by Aidan Thomas (Merged to Main at 3:32 by Connor Almeyda)
 </li>
+ <li>
+ Novemeber 11th, 6:35pm- Add Box Moving for Player2 by Connor Almeyda (Already on Main)
+</li>
 </ul>
 
 ## Objective Statement
