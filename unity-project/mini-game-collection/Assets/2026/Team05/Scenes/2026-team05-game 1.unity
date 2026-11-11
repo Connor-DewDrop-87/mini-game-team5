@@ -534,7 +534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  tagManager: {fileID: 1156302777}
+  minigameManager: {fileID: 812188702}
 --- !u!61 &581732186
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3752,6 +3752,8 @@ MonoBehaviour:
   whoisit: 0
   Player1Status: {fileID: 1109809238}
   Player2Status: {fileID: 1743069793}
+  tagStatus: 1
+  cooldown: 1
 --- !u!224 &1227636232 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2424504353139371240, guid: a57f4cff1dd5dbf4d9290d760c7147e4,
@@ -3961,6 +3963,11 @@ PrefabInstance:
       propertyPath: <ScoreDisplays>k__BackingField.Array.data[1]
       value: 
       objectReference: {fileID: 881828380}
+    - target: {fileID: 1866979182144992497, guid: a57f4cff1dd5dbf4d9290d760c7147e4,
+        type: 3}
+      propertyPath: m_text
+      value: Player 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2338786346103474391, guid: a57f4cff1dd5dbf4d9290d760c7147e4,
         type: 3}
       propertyPath: m_Name
@@ -4059,6 +4066,11 @@ PrefabInstance:
     - target: {fileID: 4162857353896711814, guid: a57f4cff1dd5dbf4d9290d760c7147e4,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4162857353896711814, guid: a57f4cff1dd5dbf4d9290d760c7147e4,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4211571197445509081, guid: a57f4cff1dd5dbf4d9290d760c7147e4,
@@ -5049,7 +5061,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  tagManager: {fileID: 1156302777}
 --- !u!61 &1999187043
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5110,6 +5121,8 @@ MonoBehaviour:
   whoisit: 0
   Player1Status: {fileID: 1109809238}
   Player2Status: {fileID: 1743069793}
+  tagStatus: 1
+  cooldown: 1
 --- !u!1 &2051311375
 GameObject:
   m_ObjectHideFlags: 0

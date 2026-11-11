@@ -21,7 +21,7 @@ public class Player2 : MonoBehaviour
 
     private SpriteRenderer sr;
 
-    public TagSystemManager tagManager;
+    public MiniGameManager minigameManager;
 
     // Start is called before the first frame update
     void Start()
@@ -49,7 +49,7 @@ public class Player2 : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player1"))
         {
-            tagManager.SwitchTagger();
+            minigameManager.StopGame();
         }
     }
 }
