@@ -4,6 +4,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using MiniGameCollection;
 
 public class Player2 : MonoBehaviour
 {
@@ -35,24 +36,10 @@ public class Player2 : MonoBehaviour
     // Move Player2 (the tagger)
     void Update()
     {
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            transform.Translate(Vector2.up * moveSpeed * Time.deltaTime);
-        }
+        // Get joystick input from ArcadeInput
+        Vector2 movement = ArcadeInput.Player2.Joystick8Way;
 
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            transform.Translate(Vector2.down * moveSpeed * Time.deltaTime);
-        }
-
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
-        }
-
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);
-        }
+        // Move Player2
+        transform.Translate(movement * moveSpeed * Time.deltaTime);
     }
 }

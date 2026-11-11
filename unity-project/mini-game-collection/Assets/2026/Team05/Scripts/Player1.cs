@@ -4,6 +4,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using MiniGameCollection;
 
 public class Player1 : MonoBehaviour
 {
@@ -35,24 +36,10 @@ public class Player1 : MonoBehaviour
     // Move Player1 (the runner)
     void Update()
     {
-        if (Input.GetKey(KeyCode.W))
-        {
-            transform.Translate(Vector2.up * moveSpeed * Time.deltaTime);
-        }
+        // Get joystick input from ArcadeInput
+        Vector2 movement = ArcadeInput.Player1.Joystick8Way;
 
-        if (Input.GetKey(KeyCode.S))
-        {
-            transform.Translate(Vector2.down * moveSpeed * Time.deltaTime);
-        }
-
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
-        }
-
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);
-        }
+        // Move Player2
+        transform.Translate(movement * moveSpeed * Time.deltaTime);
     }
 }
