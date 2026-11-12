@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using MiniGameCollection;
 
-public class Player2 : MonoBehaviour
+public class Team5Player2 : MonoBehaviour
 {
     //Global variables - any function in this script can access them
     //public means any other script can acccess it, and it's
