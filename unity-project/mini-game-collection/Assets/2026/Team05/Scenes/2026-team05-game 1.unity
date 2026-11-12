@@ -824,9 +824,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 278c85ef6fae0b44b8b1cd08df9c5ed4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 7.5
   minigameManager: {fileID: 812188702}
-  maxCoolDown: 5
+  maxCoolDown: 2.5
 --- !u!61 &581732186
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3490,7 +3490,7 @@ MonoBehaviour:
   <DebugGameTime>k__BackingField: 10
   <CountDownStartMessage>k__BackingField: Begin!
   <MaxGameTime>k__BackingField: -278729886
-  <Winner>k__BackingField: 0
+  <Winner>k__BackingField: 1742563677
   <AuthorCredits>k__BackingField:
   - "Rapha\xEBl T\xE9treault"
 --- !u!114 &812188703
@@ -3836,7 +3836,7 @@ RectTransform:
   m_GameObject: {fileID: 897081591}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.25, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1503786998}
@@ -3911,7 +3911,7 @@ RectTransform:
   m_GameObject: {fileID: 1058959776}
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.25, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1503786997}
@@ -5620,6 +5620,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  dashSpeed: 10
+  currentDashTime: 2
+  dashTime: 2
+  dashCooldown: 2
   minigameManager: {fileID: 812188702}
 --- !u!61 &1999187043
 BoxCollider2D:

@@ -129,7 +129,7 @@ public class Player2 : MonoBehaviour
     void UpdateCoolDownUI()
     {
         float cooldownpercent = ((maxCoolDown-currentCoolDown)/maxCoolDown);
-        cooldownUI.transform.localScale = new Vector3(1, cooldownpercent, 1);
+        cooldownUI.transform.localScale = new Vector3(0.25f, cooldownpercent, 1);
     }
 
     void OnCollisionEnter2D(Collision2D collision)
