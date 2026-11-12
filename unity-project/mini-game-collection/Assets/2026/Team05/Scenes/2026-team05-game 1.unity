@@ -5620,6 +5620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  minigameManager: {fileID: 812188702}
 --- !u!61 &1999187043
 BoxCollider2D:
   m_ObjectHideFlags: 0

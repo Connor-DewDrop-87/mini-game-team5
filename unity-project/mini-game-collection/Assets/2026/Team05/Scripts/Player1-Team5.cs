@@ -12,6 +12,7 @@ public class Player1 : MonoBehaviour
     //public means any other script can acccess it, and it's
     //visible in the editor!
     public float moveSpeed;
+    public MiniGameManager minigameManager;
 
     //Rigidbody2D is a component type variable.
     private Rigidbody2D rb2d;
@@ -36,6 +37,15 @@ public class Player1 : MonoBehaviour
     // Move Player1 (the runner)
     void Update()
     {
+        HandleMovement();
+    }
+
+    // Handle player input and movement
+    void HandleMovement()
+    {
+        // Return early if game isn't even running yet
+        if (minigameManager && minigameManager.State != MiniGameManagerState.TimerRunning) return;
+        
         // Get joystick input from ArcadeInput
         Vector2 movement = new Vector2(ArcadeInput.Player1.AxisY, -ArcadeInput.Player1.AxisX);
 

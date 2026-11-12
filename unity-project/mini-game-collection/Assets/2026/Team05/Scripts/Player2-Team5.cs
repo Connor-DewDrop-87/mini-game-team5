@@ -50,11 +50,7 @@ public class Player2 : MonoBehaviour
     // Move Player2 (the tagger)
     void Update()
     {
-        // Get joystick input from ArcadeInput
-        Vector2 movement = new Vector2(-ArcadeInput.Player2.AxisY, ArcadeInput.Player2.AxisX);
-
-        // Move Player2
-        transform.Translate(movement * moveSpeed * Time.deltaTime);
+        HandleMovement();
 
         // Press Button 1 to move the Block to the Opposite Horizontal Side
         if (ArcadeInput.Player2.Action1.Pressed && currentCoolDown==0)
@@ -84,6 +80,19 @@ public class Player2 : MonoBehaviour
             }
         }
 
+    }
+    
+    // Handle player input and movement
+    void HandleMovement()
+    {
+        // Return early if game isn't even running yet
+        if (minigameManager && minigameManager.State != MiniGameManagerState.TimerRunning) return;
+
+        // Get joystick input from ArcadeInput
+        Vector2 movement = new Vector2(-ArcadeInput.Player2.AxisY, ArcadeInput.Player2.AxisX); ;
+
+        // Move Player2
+        transform.Translate(movement * moveSpeed * Time.deltaTime);
     }
 
     void MoveBlock()
