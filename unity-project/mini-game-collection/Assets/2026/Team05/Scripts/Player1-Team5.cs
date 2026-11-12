@@ -50,7 +50,7 @@ public class Player1 : MonoBehaviour
         HandleMovement();
         if (ArcadeInput.Player1.Action1.Pressed && canDash==true)
         {
-
+            DashMechanic();
         }
     }
 
@@ -65,5 +65,28 @@ public class Player1 : MonoBehaviour
 
         // Move Player2
         transform.Translate(movement * moveSpeed * Time.deltaTime);
+    }
+
+    IEnumerator DashMechanic()
+    {
+        canDash = false;
+
+        // Store original movement speed
+        float originalSpeed = moveSpeed;
+
+        // Increase movement speed
+        moveSpeed = dashSpeed;
+
+        // Wait 2 sec
+        yield return new WaitForSeconds(dashTime);
+
+        // Restore original speed
+        moveSpeed = originalSpeed;
+
+        // Wait for cooldown
+        yield return new WaitForSeconds(dashCooldown);
+
+        // Allow dash to be used again
+        canDash = true;
     }
 }
