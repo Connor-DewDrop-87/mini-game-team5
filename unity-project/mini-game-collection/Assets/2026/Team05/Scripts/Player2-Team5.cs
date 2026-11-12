@@ -51,7 +51,7 @@ public class Player2 : MonoBehaviour
     void Update()
     {
         // Get joystick input from ArcadeInput
-        Vector2 movement = ArcadeInput.Player2.Joystick8Way;
+        Vector2 movement = new Vector2(-ArcadeInput.Player2.AxisY, ArcadeInput.Player2.AxisX);
 
         // Move Player2
         transform.Translate(movement * moveSpeed * Time.deltaTime);
