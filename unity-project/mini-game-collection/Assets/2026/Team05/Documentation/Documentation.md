@@ -30,7 +30,7 @@
  Novemeber 10th, 7:10pm- Update UI to call the Players "Runner" and "Tagger", along with removing score by Aidan Thomas (Merged to Main at 7:17pm by Connor Almeyda)
 </li>
  <li>
- Novemeber 11th, 3:28pm- Add Tagging Mechanic by Aidan Thomas (Merged to Main at 3:32 by Connor Almeyda)
+ Novemeber 11th, 3:28pm- Add Tagging Mechanic by Aidan Thomas (Merged to Main at 3:32pm by Connor Almeyda)
 </li>
  <li>
  Novemeber 11th, 6:35pm- Add Box Moving for Player2 by Connor Almeyda (Already on Main)
@@ -40,6 +40,9 @@
 </li>
 <li>
  Novemeber 11th, 8:53pm- Show Player2's Moving Box Cooldown by Connor Almeyda (Already on Main)
+</li>
+<li>
+ Novemeber 12th, 11:39am- Update Player Sprites by John Mark Redwood (Merged into Main at 11:44am by Connor Almeyda)
 </li>
 </ul>
 
