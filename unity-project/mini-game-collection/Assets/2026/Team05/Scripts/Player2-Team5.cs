@@ -29,7 +29,7 @@ public class Player2 : MonoBehaviour
     bool right = false;
     public float maxCoolDown = 5;
     float currentCoolDown = 0;
-
+    GameObject cooldownUI;
     // Start is called before the first frame update
     void Start()
     {
@@ -43,6 +43,7 @@ public class Player2 : MonoBehaviour
 
         // Get Moveable Block Object
         moveableBlocks = GameObject.Find("MoveableBlock");
+        cooldownUI = GameObject.Find("RechargeBarTagger");
         MoveBlock();
     }
 
@@ -75,12 +76,14 @@ public class Player2 : MonoBehaviour
         if (currentCoolDown>0)
         {
             currentCoolDown -= Time.deltaTime;
+            UpdateCoolDownUI();
             // Go to 0 if the CoolDown goes under
             if (currentCoolDown < 0)
             {
                 currentCoolDown = 0;
             }
         }
+
     }
 
     void MoveBlock()
@@ -112,6 +115,12 @@ public class Player2 : MonoBehaviour
         }
 
         moveableBlocks.transform.position = changePosition;
+    }
+
+    void UpdateCoolDownUI()
+    {
+        float cooldownpercent = ((maxCoolDown-currentCoolDown)/maxCoolDown);
+        cooldownUI.transform.localScale = new Vector3(1, cooldownpercent, 1);
     }
 
     void OnCollisionEnter2D(Collision2D collision)

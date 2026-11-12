@@ -38,6 +38,9 @@
 <li>
  Novemeber 11th, 8:46pm- UI Elements Created by Connor Almeyda (Already on Main)
 </li>
+<li>
+ Novemeber 11th, 8:53pm- Show Player2's Moving Box Cooldown by Connor Almeyda (Already on Main)
+</li>
 </ul>
 
 ## Objective Statement
