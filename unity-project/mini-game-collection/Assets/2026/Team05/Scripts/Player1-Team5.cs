@@ -50,8 +50,9 @@ public class Player1 : MonoBehaviour
         HandleMovement();
         if (ArcadeInput.Player1.Action1.Pressed && canDash==true)
         {
-            DashMechanic();
+            StartCoroutine(DashMechanic());
         }
+
     }
 
     // Handle player input and movement
