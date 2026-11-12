@@ -47,6 +47,12 @@
 <li>
  Novemeber 12th, 12:00pm- Players no longer move at Start by John Mark Redwood (Merged into Main at 12:02pm by Connor Almeyda)
 </li>
+<li>
+ Novemeber 12th, 2:21pm- Added Player 1 Dash Mechanic (Merged into Main at 2:39 pm by Connor Almeyda)
+</li>
+<li>
+ Novemeber 12th, 3:00pm- Added Player 1 UI for Dash Mechanic by Connor Almeyda (Already on Main)
+</li>
 </ul>
 
 ## Objective Statement
