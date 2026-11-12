@@ -44,6 +44,9 @@
 <li>
  Novemeber 12th, 11:39am- Update Player Sprites by John Mark Redwood (Merged into Main at 11:44am by Connor Almeyda)
 </li>
+<li>
+ Novemeber 12th, 12:00pm- Players no longer move at Start by John Mark Redwood (Merged into Main at 12:02pm by Connor Almeyda)
+</li>
 </ul>
 
 ## Objective Statement
