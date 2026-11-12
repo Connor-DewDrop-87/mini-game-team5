@@ -12,6 +12,13 @@ public class Player1 : MonoBehaviour
     //public means any other script can acccess it, and it's
     //visible in the editor!
     public float moveSpeed;
+
+     // Establishing dashing mechanic
+    public float dashSpeed = 10f;
+    public float dashTime = 2f;
+    public float dashCooldown = 2f;
+    private bool canDash = true;
+    GameObject cooldownUI;
     public MiniGameManager minigameManager;
 
     //Rigidbody2D is a component type variable.
@@ -32,12 +39,19 @@ public class Player1 : MonoBehaviour
         anim = GetComponent<Animator>();
 
         sr = GetComponent<SpriteRenderer>();
+
+        // Find CooldownUI
+        cooldownUI = GameObject.Find("RechargeBarRunner");
     }
 
     // Move Player1 (the runner)
     void Update()
     {
         HandleMovement();
+        if (ArcadeInput.Player1.Action1.Pressed && canDash==true)
+        {
+
+        }
     }
 
     // Handle player input and movement
