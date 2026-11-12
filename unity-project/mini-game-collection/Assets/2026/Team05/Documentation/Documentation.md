@@ -35,6 +35,9 @@
  <li>
  Novemeber 11th, 6:35pm- Add Box Moving for Player2 by Connor Almeyda (Already on Main)
 </li>
+<li>
+ Novemeber 11th, 8:46pm- UI Elements Created by Connor Almeyda (Already on Main)
+</li>
 </ul>
 
 ## Objective Statement

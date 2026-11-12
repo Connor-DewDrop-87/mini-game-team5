@@ -118,6 +118,8 @@ public class Player2 : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player1"))
         {
+            // Set Player 2 as Winner
+            minigameManager.Winner = MiniGameWinner.Player2;
             minigameManager.StopGame();
         }
     }
